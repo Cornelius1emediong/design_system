@@ -1,7 +1,11 @@
+import {SignUpForm} from "@/components/ui/signup/SignUpForm";
+
+
+
 export default function signUpPage(){
     return(
-        <div className="flex flex-col items-center justify-center min-h-screen">
-            SignUp Form
+        <div className="p-10 mx-auto">
+            Sign up Form
         </div>
     )
 }
